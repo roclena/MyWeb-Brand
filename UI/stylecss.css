@@ -162,22 +162,29 @@ header nav{
 }
 .project{
 	float: left;
-	width: 40%;
-	border-style: solid;
+	width: 40%;	
 	border-radius: 50px;
-
 
 }
 .project img{
 	height: 200px;
 	width: 400px;
-	align-content: center;
-	padding: 10px;
 }
-.project #mywe{
+ #mywe{
 	background-color: #474646;
 	border-radius: 50px;
+
+}
+ #andr{
+	background-color: #F3EBEB;
 	float: right;
+	color: black;
+}
+#myblog h1{
+	text-align: center;
+}
+#blogview{
+	margin-bottom: 55px;
 
 }
 	@media (max-width: 308px){
@@ -190,7 +197,7 @@ header nav{
 		header{
 			padding-bottom: 20PX;
 		}
-		#mybody #myprofile {
+		#mybody #myprofile #myservice #myblog {
 			margin-top: 40px;
 			display: block;
 			width: 100%
