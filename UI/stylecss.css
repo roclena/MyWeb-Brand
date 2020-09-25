@@ -112,7 +112,81 @@ header nav{
 		background-color: #342E2E;
 		text-align: center;
 	}
+	
+.bare {
+  width: 426px;
+  height: 23px;
+  background: rgba(214,216,239,1);
+  opacity: 1;  
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  overflow: hidden;
+}
+.about_body{
+	
+	
+}
+#about{
+	float: left;
+	text-align:justify;
+	width: 45%;
+	margin-left: 1px;
 
+}
+#skills{
+	float: right;	
+	width: 45%;
+	margin-right: 1px;
+}
+#servicebody{
+	font:15px/1.5 Arial;
+	color: black;
+	background-color: #E9EBF4;
+	padding: 0;
+	margin: 0;
+}
+#servicefooter{
+	margin-bottom: 0;
+}
+.servicebox{
+	margin-top: 85px;
+	float: left;
+	width: 30%;
+}
+#myservice p{
+	background-color: black;
+	color: white;
+	margin: 10%;
+}
+.project{
+	float: left;
+	width: 40%;	
+	border-radius: 50px;
+
+}
+.project img{
+	height: 200px;
+	width: 400px;
+}
+ #mywe{
+	background-color: #474646;
+	border-radius: 50px;
+
+}
+ #andr{
+	background-color: #F3EBEB;
+	float: right;
+	color: black;
+}
+#myblog h1{
+	text-align: center;
+}
+#blogview{
+	margin-bottom: 55px;
+
+}
 	@media (max-width: 308px){
 		header #menu,
 		header nav,header  nav li{
@@ -123,9 +197,12 @@ header nav{
 		header{
 			padding-bottom: 20PX;
 		}
-		#mybody{
+		#mybody #myprofile #myservice #myblog {
 			margin-top: 40px;
 			display: block;
 			width: 100%
+		}
+		.servicebox{
+			display: block;
 		}
 	}
